@@ -90,7 +90,7 @@ public class HomeActivity extends ActionBarActivity {
         }
     }
 
-    //GridView的适配器
+    //GridView的 适配器
     class MyAdpter extends BaseAdapter{
 
         @Override
