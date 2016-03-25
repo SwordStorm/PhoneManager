@@ -19,11 +19,8 @@ public class HTTPUtils {
         int len = -1;
         try {
             while((len=is.read(bytes,0,1024))!=-1) {
-
               baos.write(bytes,0,len);
-
             }
-
             baos.close();
 
             result= baos.toString("GBK");
