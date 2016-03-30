@@ -25,6 +25,5 @@ android:paddingLeft="5dp">
     android:id="@+id/cb_setting_update"
     android:layout_marginRight="10dp"
     android:clickable="false"
-    android:focusable="false"
-    /><!--使CheckBox失去点击事件和焦点-->
+    android:focusable="false"/>
 </RelativeLayout>

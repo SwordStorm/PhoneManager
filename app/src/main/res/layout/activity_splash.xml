@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".phoneManager.SplashActivity"
+    tools:context="com.cskaoyan.mobile.mobilemanager.SplashActivity"
     android:background="@drawable/logo2">
 
     <TextView

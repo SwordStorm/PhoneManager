@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".phoneManager.SettingActivity">
+    tools:context="com.cskaoyan.mobile.mobilemanager.SettingActivity">
 
     <TextView
         style="@style/myPageTile"
         android:text="设置中心"
         />
 
-    <com.example.sword.phonemanager.view.SettingItem
+    <com.cskaoyan.mobile.view.SettingItem
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/si_setting_update"
@@ -20,9 +20,9 @@
         settingitem:onstring="自动更新开启"
         settingitem:offstring="自动更新关闭"
         settingitem:sp_keyname="autoupdate"
-         ></com.example.sword.phonemanager.view.SettingItem>
+         ></com.cskaoyan.mobile.view.SettingItem>
 
-    <com.example.sword.phonemanager.view.SettingItem
+    <com.cskaoyan.mobile.view.SettingItem
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/si_setting_showlocation"
@@ -30,9 +30,14 @@
         settingitem:onstring="显示归属地开启"
         settingitem:offstring="显示归属地关闭"
         settingitem:sp_keyname="showloaction"
-        ></com.example.sword.phonemanager.view.SettingItem>
+        ></com.cskaoyan.mobile.view.SettingItem>
 
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="settoastlocation"
+        android:text="自定义归属地提示框的位置"/>
    <!-- <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
