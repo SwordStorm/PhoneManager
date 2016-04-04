@@ -2,7 +2,7 @@
 <resources>
     <declare-styleable name="SettingItem">
         <attr name="itemtitle" format="string"/>
-        <attr name="id" format="integer"/>
+        <!--<attr name="id" format="integer"/>-->
         <attr name="onstring" format="string"/>
         <attr name="offstring" format="string"/>
         <attr name="sp_keyname" format="string"/>

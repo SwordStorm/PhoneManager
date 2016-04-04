@@ -17,7 +17,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.sword.phonemanager.R;
+
 import com.example.sword.phonemanager.application.MyApplication;
 import com.example.sword.phonemanager.utils.HTTPUtils;
 import com.loopj.android.http.AsyncHttpClient;

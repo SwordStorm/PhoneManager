@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cskaoyan.mobile.mobilemanager.SplashActivity"
-    android:background="@drawable/logo2">
+    tools:context="com.example.sword.phonemanager.PhoneManager.SplashActivity"
+    android:background="@drawable/applogo">
 
     <TextView
         android:layout_width="wrap_content"

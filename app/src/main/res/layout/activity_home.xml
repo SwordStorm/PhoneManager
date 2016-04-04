@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.cskaoyan.mobile.mobilemanager.HomeActivity">
+    tools:context="com.example.sword.phonemanager.PhoneManager.HomeActivity">
 <TextView
     style="@style/myPageTile"
     android:text="功能列表"
     />
-    <com.cskaoyan.mobile.view.MyTextView
+    <com.example.sword.phonemanager.view.MyTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="2dp"

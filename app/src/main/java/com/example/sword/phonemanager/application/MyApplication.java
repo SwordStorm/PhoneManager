@@ -1,10 +1,8 @@
 package com.example.sword.phonemanager.application;
 
 import android.app.Application;
-import android.content.Intent;
 import android.content.SharedPreferences;
 
-import com.example.sword.phonemanager.service.MyNumberLocationService;
 
 /**
  * Created by Sword on 2016/3/25.
@@ -25,10 +23,10 @@ public class MyApplication extends Application{
 
         editor = configsp.edit();
 
-        startService(new Intent(this, MyNumberLocationService.class));
+       // startService(new Intent(this, MyNumberLocationService.class));
     }
 
-    public static void setConfigspValue(String key,String value){
+    public static void setConfigValue(String key,String value){
         editor.putString(key, value);
         editor.commit();
     }
@@ -40,6 +38,6 @@ public class MyApplication extends Application{
     @Override
     public void onTerminate() {
         super.onTerminate();
-        stopService(new Intent(this,MyNumberLocationService.class));
+        //stopService(new Intent(this,MyNumberLocationService.class));
     }
 }
