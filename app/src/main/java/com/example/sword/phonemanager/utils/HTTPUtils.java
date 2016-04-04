@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by Lan on 2016/3/24.
+ * Created by Sword on 2016/4/5.
  */
 public class HTTPUtils {
 
@@ -19,7 +19,7 @@ public class HTTPUtils {
         int len = -1;
         try {
             while((len=is.read(bytes,0,1024))!=-1) {
-              baos.write(bytes,0,len);
+                baos.write(bytes,0,len);
             }
             baos.close();
 
